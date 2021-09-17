@@ -8,13 +8,15 @@ namespace Keycloak.Net.Models.Clients
         public string UserInfoTokenClaim { get; set; }
         [JsonProperty("userattribute")]
         public string UserAttribute { get; set; }
-        [JsonProperty("idtokenclaim")]
+        [JsonProperty("id.token.claim")]
         public string IdTokenClaim { get; set; }
-        [JsonProperty("accesstokenclaim")]
+        [JsonProperty("access.token.claim")]
         public string AccessTokenClaim { get; set; }
-        [JsonProperty("claimname")]
+        [JsonProperty("claim.name")]
         public string ClaimName { get; set; }
-        [JsonProperty("jsonTypelabel")]
+        [JsonProperty("jsonType.label")]
         public string JsonTypelabel { get; set; }
+        [JsonProperty("user.session.note")]
+        public string UserSessionNote { get; set; }
     }
 }
