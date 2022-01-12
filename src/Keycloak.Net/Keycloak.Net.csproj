@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net452;netstandard1.4;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Authors>Luk Vermeulen</Authors>
-    <Copyright>Copyright 2019 by Luk Vermeulen. All rights reserved.</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>TL.TY</Authors>
+    <Copyright></Copyright>
     <PackageLicenseUrl>https://github.com/lvermeulen/Keycloak.Net/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/lvermeulen/Keycloak.Net</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/lvermeulen/Keycloak.Net</RepositoryUrl>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>keycloak</PackageTags>
+    <PackageTags></PackageTags>
     <PackageIconUrl>https://i.imgur.com/eEjfRLz.jpg?2</PackageIconUrl>
     <Description>C# client for Keycloak</Description>
     <SignAssembly>true</SignAssembly>
@@ -18,6 +18,9 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Company>TL.TY</Company>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Update ClientConfig model</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
