@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>TL.TY</Authors>
@@ -19,7 +19,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <Company>TL.TY</Company>
-    <Version>1.0.1</Version>
+    <Version>1.0.18.1</Version>
     <PackageReleaseNotes>Update ClientConfig model</PackageReleaseNotes>
   </PropertyGroup>
 
